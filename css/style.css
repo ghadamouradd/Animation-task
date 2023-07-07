@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    height: 110px;
+    width: 110px;
+    margin-bottom: 10px;
+}
+.imgs{
+   height: 100px;
+   width: 100px;
+}
+.div1{
+    position: relative;
+    animation-name: bunny;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+@keyframes bunny{
+    0%{
+        left: 0px;
+    }
+    100%{
+       left: 92%;
+    }
+}
+.div3{
+    position: relative;
+    animation-name: lion;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+@keyframes lion{
+    0%{
+        left: 0px;
+    }
+    100%{
+       left: 92%;
+    }
+}
+.div5{
+    position: relative;
+    animation-name: giraffe;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+}
+@keyframes giraffe{
+    0%{
+        left: 0px;
+    }
+    100%{
+       left: 92%;
+    }
+}
+/* ////////////////////////////////////////////////////////////////////////////// */
+.div2{
+    position: relative;
+    animation-name: goat;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    left: 92%;
+}
+@keyframes goat{
+    0%{
+        left: 92%;
+    }
+    100%{
+       left: 0px;
+    }
+}
+.div4{
+    position: relative;
+    animation-name: tiger;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+    left: 92%;
+}
+@keyframes tiger{
+    0%{
+        left: 92%;
+    }
+    100%{
+       left: 0px;
+    }
+}
+.div6{
+    position: relative;
+    animation-name: puppy;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 11s;
+    left: 92%;
+}
+@keyframes puppy{
+    0%{
+        left: 92%;
+    }
+    100%{
+       left: 0px;
+    }
+}
